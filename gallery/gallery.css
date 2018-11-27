@@ -1,0 +1,97 @@
+body {
+	background-color: whitesmoke;
+	margin: 0%;
+	overflow-x: hidden;
+	font-size: 2vw;	
+}
+
+#footer {
+	position: absolute;
+	background-color: lightblue;
+	width: 120%;
+	padding-left: 10%;
+	padding-right: 20%;
+	left: 0%;
+	margin-left: -1%;
+	font-size: 2vw;	
+
+}
+
+#footer p {
+	font-size: 2vw;	
+}
+
+#logo {
+	font-size: Arial;
+	font-size: 4vw;
+	left: 80%;
+	position: absolute;
+	top: 30%;
+}
+
+#logout {
+	background-color: lightblue;
+	margin: 0%;
+	height: 10%;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	padding: 1%;
+	width: 100%;
+	z-index: 10;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#side_section {
+	position: absolute;
+	width: 90%; 
+	height: auto; 
+	top: 13%;
+}
+
+.post {
+	border: 1px solid black;
+	padding: 1%;
+}
+
+.back {
+	background-color: whitesmoke;
+}
+
+.comments {
+	padding-left: 40%;
+}
+
+.comment_date {
+	font-size: 0.7vw;
+}
+.comment_name {
+	font-size: 0.9vw;
+	color: blue;
+	color: black;
+	font-weight: bold;
+	
+}
+
+.post_date {
+	border-radius: 10px;
+	padding-left: 10%;
+	color : white;
+	font-size: 80%;
+	background-color: grey;
+	width: 30%;
+}
+
+.likes {
+	font-weight: bold;
+	background-color: whitesmoke;
+	padding: 1.5%;
+	font-size: 
+}
+
+.post_text {
+	padding: 2%;
+	background-color: #f6f0cb;
+	font-size: 4vw;
+	font-family: sans-serif;	
+}

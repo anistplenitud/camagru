@@ -1,0 +1,213 @@
+#options_ul li {
+	color: black;
+	padding: 2vw;
+	animation: glow 2s infinite alternate;
+	display: block;
+}
+
+#options_ul {
+	display: none;
+}
+
+#options_ul li:hover {
+	background-color: black;
+	color : white;
+	display: block;
+}
+
+#options:hover ul {
+	display: block;
+}
+
+#options_ul:hover {
+	display: block;
+}
+
+#options {
+	cursor: pointer;
+	padding: 2vw;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+	padding: 10px;
+	font-size: 4vw;
+}
+
+#dropdown {
+	border: 1px solid #4C3C1B;
+	padding: 8px 80px 8px 8px;
+}
+
+#dropdown:hover ul {
+	display: block;
+}
+/* Second Item */
+
+#options_ul2 li {
+	color: black;
+	padding: 2vw;
+	animation: glow 2s infinite alternate;
+	display: block;
+}
+
+#options_ul2 {
+	display: none;
+}
+
+#options_ul2 li:hover {
+	background-color: black;
+	color : white;
+	display: block;
+}
+
+#options2:hover ul {
+	display: block;
+}
+
+#options_ul2:hover {
+	display: block;
+}
+
+#options2 {
+	cursor: pointer;
+	padding: 2vw;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+	padding: 10px;
+	font-size: 4vw;
+}
+
+#dropdown2 {
+	border: 1px solid #4C3C1B;
+	padding: 8px 80px 8px 8px;
+}
+
+#dropdown2:hover ul {
+	display: block;
+}
+
+/* Second Item */
+
+#options_ul3 li {
+	color: black;
+	padding: 2vw;
+	animation: glow 2s infinite alternate;
+	display: block;
+}
+
+#options_ul3 {
+	display: none;
+}
+
+#options_ul3 li:hover {
+	background-color: black;
+	color : white;
+	display: block;
+}
+
+#options3:hover ul {
+	display: block;
+}
+
+#options_ul3:hover {
+	display: block;
+}
+
+#options3 {
+	cursor: pointer;
+	padding: 2vw;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+	padding: 10px;
+	font-size: 4vw;
+}
+
+#dropdown3 {
+	border: 1px solid #4C3C1B;
+	padding: 8px 80px 8px 8px;
+}
+
+#dropdown3:hover ul {
+	display: block;
+}
+
+/* Second Item */
+
+#options_ul4 li {
+	color: black;
+	padding: 2vw;
+	animation: glow 2s infinite alternate;
+	display: block;
+}
+
+#options_ul4 {
+	display: none;
+}
+
+#options_ul4 li:hover {
+	background-color: black;
+	color : white;
+	display: block;
+}
+
+#options4:hover ul {
+	display: block;
+}
+
+#options_ul4:hover {
+	display: block;
+}
+
+#options4 {
+	cursor: pointer;
+	padding: 2vw;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+	padding: 10px;
+	font-size: 4vw;
+}
+
+#dropdown4 {
+	border: 1px solid #4C3C1B;
+	padding: 8px 80px 8px 8px;
+}
+
+#dropdown4:hover ul {
+	display: block;
+}
+
+#footer {
+	width: 100%;
+			background-color: lightblue;
+			position: absolute;
+			bottom: 0%;
+			text-align: right;
+}
+
+#logout {
+			background-color: lightblue;
+			width: 100%;
+			height: 10%;
+			padding-top: 2%; 
+
+		}
+body {
+	margin: 0%;
+	background-image: url('https://images.vexels.com/media/users/3/136813/isolated/preview/7f8c0af5cf9b630f599e6bf87c168a25-setting-round-icon-by-vexels.png');
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+@keyframes glow {
+  	from {
+    	color: black;
+    	border-color: gold;
+    	box-shadow: 0px 1px 0px 0px;
+    	
+ 	 }
+  	to {
+
+    	color: gold;
+    	border-color: black;
+    	box-shadow: 0px 4px 10px 0px;
+  		}
+	}
